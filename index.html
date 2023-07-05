@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="image.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Blog Website</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image.png" alt="Logo">
+      </div>
+      <div class="navbar-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="navbar-menu" id="menu">
+        <li class="active" style="margin-right: 50px;"><a href="#">HOME</a></li>
+        <li style="margin-right: 50px;"><a href="blog.html">BLOG</a></li>
+        <li style="margin-right: 50px;"><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <script>
+   function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "none") {
+    menu.style.display = "flex";
+  } else {
+    menu.style.display = "none";
+  }
+  }
+  </script>
+  </header>
+  <div class="container">
+    <h1>Embracing Change: Navigating Life's Transformations with Resilience</h1>
+    <br/>
+    <ul>
+      <li style="text-align: justify; font-size: 1.3rem; font-family: cursive; flex-wrap: wrap;" >Life is a journey marked by constant change and transformation. From personal growth to societal advancements, change is an integral part of our existence. However, embracing change can be a daunting task, often accompanied by uncertainty and fear. In this blog post, we will explore the importance of resilience in navigating life's transformations and how it can empower us to adapt, grow, and thrive.</li>
+      <br/>
+      <img src="childhood.jpg" alt="" style="width: 100%; height: 400px;">
+      <br/>
+      <br/>
+
+      <li style="text-align: justify; font-size: 1.3rem; font-family: cursive; flex-wrap: wrap;" >In today's fast-paced world, change is more rapid and unpredictable than ever before. Technological advancements, globalization, and societal shifts are transforming the way we live, work, and interact. To thrive in this dynamic landscape, we must cultivate adaptability and embrace lifelong learning. Developing skills such as problem-solving, critical thinking, and resilience to change will equip us with the tools to navigate the challenges and seize the opportunities that come our way.</li>
+      <br/>
+      <img src="child-1.jpg" alt="" style="width: 100%; height: 400px;">
+      <br/>
+      <br/>
+
+      <li style="text-align: justify; font-size: 1.3rem; font-family: cursive; flex-wrap: wrap;" >Change often triggers fear and resistance due to the unknown and the potential for failure. However, it is important to remember that growth lies just beyond our comfort zones. By acknowledging our fears and reframing them as opportunities for growth, we can overcome the barriers that hold us back. Embracing change requires courage and a willingness to embrace uncertainty. Each step taken outside our comfort zone brings us closer to personal transformation and fulfillment.</li>
+      <br/>
+      <img src="child-2.jpg" alt="" style="width: 100%; height: 400px;">      
+    </ul>
+
+  </div>
+  <h2 style="font-size: larger; text-align: right; margin-right: 50px;"><a href="#">Back to the top</a></h2>
+  <br/>
+  
+
+  <footer class="footer">
+    <div class="row">
+      <div class="footer-col">
+        <div class="get-help">
+        <h1 style="margin: 0rem 4rem 0rem 1rem;">Get Help<i class="fa fa-question"></i></h1>
+        <ul>
+          <li><a href="#">link to privacy policy</a></li>
+          <li><a href="#">cookies policy</a></li>
+          <li><a href="#">help</a></li>
+          <li><a href="#">terms</a></li>
+          <li><a href="#">feedback</a></li>
+          <li><a href="#">developer</a></li>					
+        </ul>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="social-media">
+        <h1 style="margin: 0rem 4rem 0rem 2rem;">Social Media</h1> 
+        <ul>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkin.com/" target="_blank"><i class="fa fa-link"></i></a>
+          <a href="https://www.telegram.com/" target="_blank"><i class="fa fa-telegram"></i></a>
+          <a href="https://www.WhatsApp.com/" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        </ul>
+        </div>
+      </div>
+    </div>	
+  </footer>
+  
+</body>
+</html>
